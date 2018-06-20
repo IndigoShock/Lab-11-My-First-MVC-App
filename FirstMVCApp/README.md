@@ -9,8 +9,8 @@ A web application converting a csv file into a set table which will iterate thro
 	c. Once user has inputted the start year and end year, the results page will incur. The user will then see the Persons of the Year between the inputted years. The table is interactive based on highlighted colors.
 
 3. Visual
-![Title](Lab-11-My-First-MVC-App\FirstMVCApp\FirstMVCApp\asset\TimePersonTitleScreen.JPG)
-![Results](Lab-11-My-First-MVC-App\FirstMVCApp\FirstMVCApp\asset\TimePersonResults.JPG)
+![Title](FirstMVCApp/asset/TimePersonTitleScreen.JPG)
+![Results](FirstMVCApp/asset/TimePersonResults.JPG)
 
 4. API - No API's were harmed in the making of this.
 
