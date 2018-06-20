@@ -1,0 +1,27 @@
+﻿body {
+    background-color: grey;
+    border: 20px solid red;
+    padding: 5em;
+}
+
+h1 {
+    font-family: 'Spirax', cursive;
+    font-size: 3em;
+    outline: 10px dashed black;
+    text-align: center;
+    text-shadow: 2px 2px red;
+}
+
+th, td, tr {
+    border: 1px solid black;
+    border-radius: 1em;
+    font-family: 'Mina', sans-serif;
+}
+
+    td:hover {
+        background: lightslategray;
+    }
+
+    tr:hover {
+        background: lightyellow;
+    }

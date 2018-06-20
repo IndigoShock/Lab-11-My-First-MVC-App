@@ -1,0 +1,19 @@
+﻿@model List<FirstMVCApp.Models.Person>
+<!-- Link Stylesheet -->
+
+<link rel="stylesheet" href="~/StyleSheet.css" type="text/css" />
+<table>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Year</td>
+            <td>@item.Country </td>
+            <td>@item.Birth_Year </td>
+            <td>@item.DeathYear </td>
+            <td>@item.Title </td>
+            <td>@item.Category </td>
+            <td>@item.Context</td>
+        </tr>
+    }
+</table>

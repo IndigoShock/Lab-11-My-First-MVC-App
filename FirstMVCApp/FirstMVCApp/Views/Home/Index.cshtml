@@ -1,0 +1,23 @@
+﻿@model List<FirstMVCApp.Models.Person>
+<!-- Link Stylesheet -->
+
+<link rel="stylesheet" href="~/StyleSheet.css" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
+
+<!-- Create a form that the user can interact with. -->
+<h1>Time Person of the Year!</h1>
+
+<p id="greeting">Enter the beginning and ending years below to see who was Time person of the year between the years: </p>
+
+<form method="post">
+
+    <label for="startYear"> Starting Year </label>
+    <input maxLength="4" name="startYear" />
+
+    <label for="endYear"> Ending Year </label>
+    <input maxLength="4" name="endYear" />
+
+    <button type="submit">Submit</button>
+
+</form>
+
